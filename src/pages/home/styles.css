@@ -1,0 +1,41 @@
+.home-main {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background:  #fff;
+    border-radius: 5px;
+    border:  1px solid #ddd;
+}
+
+.line-divider{
+    margin: 20px auto 0;
+}
+
+.avatar-img{
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 272px;
+    height: 272px;
+    border-radius: 150px;
+}
+
+.home-desc{
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-links {
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.home-links a{
+    color: #272C34;
+}

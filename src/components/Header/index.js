@@ -14,6 +14,7 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import HomeIcon from '@material-ui/icons/Home';
 import Routes from './../../routes';
+import { Link } from 'react-router-dom';
 
 const drawerWidth = 240;
 
@@ -61,19 +62,24 @@ export default function ClippedDrawer() {
       >
         <div className={classes.toolbar} />
         <List>
+        <a href="/home">
             <ListItem button key={'Home'}>
                 <ListItemIcon>{<HomeIcon />}</ListItemIcon>
                 <ListItemText primary={'Home'} />
+                
             </ListItem>
+        </a>
         </List>
         <Divider />
         <List>
             <ListItem button key={'Project1'}>
-                <ListItemText primary={'Project1'} />
+                <ListItemText primary={'Project1'} />                
             </ListItem>
+            <a href="/mainTeste">
             <ListItem button key={'Project2'}>
-                <ListItemText primary={'Project2'} />
+                <ListItemText primary={'Main'} />
             </ListItem>
+            </a>
             <ListItem button key={'Project3'}>
                 <ListItemText primary={'Project3'} />
             </ListItem>

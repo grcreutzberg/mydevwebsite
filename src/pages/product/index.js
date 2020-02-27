@@ -25,7 +25,7 @@ export default class Product extends Component {
                     URL: <a href={product.url}>{product.url}</a>
                 </p>
                 <div className="actions">
-                    <Link to={'/'}>Voltar</Link>
+                    <Link to={'/mainTeste'}>Voltar</Link>
                 </div>
             </div>
         );

@@ -1,13 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+import Home from './pages/home';
 import Main from './pages/main';
 import Products from './pages/product';
 
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Main} />
+            <Route exact path="/home" component={Home} />
+            <Route path="/mainTeste" component={Main} />
             <Route path="/products/:id" component={Products} />
         </Switch>
     </BrowserRouter>
