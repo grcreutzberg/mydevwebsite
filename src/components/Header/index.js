@@ -10,17 +10,17 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
+import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
+import CoinIcon from '@material-ui/icons/MonetizationOn';
+import DiceIcon from '@material-ui/icons/Casino';
 import HomeIcon from '@material-ui/icons/Home';
 import Routes from './../../routes';
-import { Link } from 'react-router-dom';
 
 const drawerWidth = 240;
 
 const useStyles = makeStyles(theme => ({
   root: {
-    display: 'flex',    
+    display: 'flex',
   },
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
@@ -62,33 +62,31 @@ export default function ClippedDrawer() {
       >
         <div className={classes.toolbar} />
         <List>
-        <a href="/home">
-            <ListItem button key={'Home'}>
-                <ListItemIcon>{<HomeIcon />}</ListItemIcon>
-                <ListItemText primary={'Home'} />
-                
-            </ListItem>
-        </a>
+          <ListItem button key={'Home'} component="a" href="/home">
+            <ListItemIcon>{<HomeIcon />}</ListItemIcon>
+            <ListItemText primary={'Home'} />
+          </ListItem>
         </List>
         <Divider />
         <List>
-            <ListItem button key={'Project1'}>
-                <ListItemText primary={'Project1'} />                
-            </ListItem>
-            <a href="/mainTeste">
-            <ListItem button key={'Project2'}>
-                <ListItemText primary={'Main'} />
-            </ListItem>
-            </a>
-            <ListItem button key={'Project3'}>
-                <ListItemText primary={'Project3'} />
-            </ListItem>
-            <ListItem button key={'Project4'}>
-                <ListItemText primary={'Project4'} />
-            </ListItem>
-            <ListItem button key={'Project5'}>
-                <ListItemText primary={'Project5'} />
-            </ListItem>
+          <ListItem button key={'TicTacToe'} component="a" href="/TicTacToe">
+            <ListItemIcon>{<SportsEsportsIcon />}</ListItemIcon>      
+            <ListItemText primary={'TicTacToe'} />
+          </ListItem>
+          <ListItem button key={'convertCoin'} component="a" href="/convertCoin">
+            <ListItemIcon>{<CoinIcon />}</ListItemIcon>
+            <ListItemText primary={'Currency conversion'} />
+          </ListItem>
+          <ListItem button key={'diceRollRPG'} component="a" href="/diceRollRPG">
+            <ListItemIcon>{<DiceIcon />}</ListItemIcon>
+            <ListItemText primary={'Dice Roll'} />
+          </ListItem>
+          <ListItem button key={'Project4'}>
+            <ListItemText primary={'Project4'} />
+          </ListItem>
+          <ListItem button component="a" href="/mainTeste" key={'Project5'}>
+            <ListItemText primary={'Teste'} />
+          </ListItem>
         </List>
       </Drawer>
       <main className={classes.content}>
