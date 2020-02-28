@@ -20,7 +20,7 @@ export default class Home extends Component {
     render() {
         return (
             <div className="home-main">
-                <img 
+                <img
                     alt="Gustavo Roger Creutzberg"
                     src="https://avatars0.githubusercontent.com/u/20562320?s=460&v=4"
                     className="avatar-img"
@@ -40,14 +40,24 @@ export default class Home extends Component {
                 </p>
                 <hr className="line-divider"></hr>
                 <div className="home-links">
-                    <a href="https://github.com/grcreutzberg"><GitHubIcon fontSize="large"/></a>
-                    
-                    
-                    <FacebookIcon fontSize="large" onClick={()=> window.open('https://github.com/grcreutzberg')} />
-                    <InstagramIcon fontSize="large"/>
-                    <LinkedInIcon fontSize="large"/>
-                    <TwitterIcon fontSize="large"/>
-                    <YouTubeIcon fontSize="large"/>
+                    <div className="home-link" id="github">
+                        <GitHubIcon fontSize="large" onClick={() => window.open('https://github.com/grcreutzberg')} />
+                    </div>
+                    <div className="home-link" id="facebook">
+                        <FacebookIcon fontSize="large" onClick={() => window.open('https://www.facebook.com/gustavo.creutzberg')} />
+                    </div>
+                    <div className="home-link" id="instagram">
+                        <InstagramIcon fontSize="large" onClick={() => window.open('https://www.instagram.com/guxxtavoroger/')} />
+                    </div>
+                    <div className="home-link" id="linkedin">
+                        <LinkedInIcon fontSize="large" onClick={() => window.open('https://www.linkedin.com/in/gustavorogercreutzberg/')} />
+                    </div>
+                    <div className="home-link" id="twitter">
+                        <TwitterIcon fontSize="large" onClick={() => window.open('https://twitter.com/rogerrGustavo')} />
+                    </div>
+                    <div className="home-link" id="youtube">
+                        <YouTubeIcon fontSize="large" onClick={() => window.open('https://www.youtube.com/channel/UCJr97VXJKF2-U7A2Rc2j-3g?view_as=subscriber')} />
+                    </div>
                 </div>
             </div>
         );

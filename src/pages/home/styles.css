@@ -36,6 +36,32 @@
     
 }
 
-.home-links a{
-    color: #272C34;
+.home-links .home-link :hover{
+    cursor: pointer;
+}
+
+.home-links .home-link#github :hover{
+    color: #24292E;
+}
+
+.home-links .home-link#facebook :hover{
+    color: #365899;
+}
+
+.home-links .home-link#instagram :hover{
+    color: #fff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 10px;
+}
+
+.home-links .home-link#linkedin :hover{
+    color: #013378;
+}
+
+.home-links .home-link#twitter :hover{
+    color: #1A91DA;
+}
+
+.home-links .home-link#youtube :hover{
+    color: #FF0000;
 }
