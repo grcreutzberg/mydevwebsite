@@ -10,7 +10,8 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
+import SwapHorizontalCircleIcon from '@material-ui/icons/SwapHorizontalCircle';
+import GameIcon from '@material-ui/icons/SportsEsports';
 import CoinIcon from '@material-ui/icons/MonetizationOn';
 import DiceIcon from '@material-ui/icons/Casino';
 import HomeIcon from '@material-ui/icons/Home';
@@ -49,7 +50,7 @@ export default function ClippedDrawer() {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
           <Typography variant="h6" noWrap>
-            My dev website
+            LoucademiaDev
           </Typography>
         </Toolbar>
       </AppBar>
@@ -64,18 +65,26 @@ export default function ClippedDrawer() {
         <List>
           <ListItem button key={'Home'} component="a" href="/home">
             <ListItemIcon>{<HomeIcon />}</ListItemIcon>
-            <ListItemText primary={'Home'} />
+            <ListItemText primary={'Início'} />
           </ListItem>
         </List>
         <Divider />
         <List>
+          <ListItem button key={'bin2dec'} component="a" href="/bin2dec">
+            <ListItemIcon>{<SwapHorizontalCircleIcon />}</ListItemIcon>      
+            <ListItemText primary={'Bin2Dec'} />
+          </ListItem>
+          <ListItem button key={'dec2bin'} component="a" href="/dec2bin">
+            <ListItemIcon>{<SwapHorizontalCircleIcon />}</ListItemIcon>      
+            <ListItemText primary={'Dec2Bin'} />
+          </ListItem>
           <ListItem button key={'TicTacToe'} component="a" href="/TicTacToe">
-            <ListItemIcon>{<SportsEsportsIcon />}</ListItemIcon>      
+            <ListItemIcon>{<GameIcon />}</ListItemIcon>      
             <ListItemText primary={'TicTacToe'} />
           </ListItem>
           <ListItem button key={'convertCoin'} component="a" href="/convertCoin">
             <ListItemIcon>{<CoinIcon />}</ListItemIcon>
-            <ListItemText primary={'Currency conversion'} />
+            <ListItemText primary={'Conv. de moeda'} />
           </ListItem>
           <ListItem button key={'diceRollRPG'} component="a" href="/diceRollRPG">
             <ListItemIcon>{<DiceIcon />}</ListItemIcon>
