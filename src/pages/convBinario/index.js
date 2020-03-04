@@ -29,6 +29,7 @@ export default class convBinario extends Component {
                 <p>A calculadora para conversão binaria converte facilmente números decimais em binários e vice-versa</p>
                 <div className="convBin-div">
                     <h3>Converter binário para decimal</h3>
+                    <br />
                     <label>Número binário</label>
                     <br />
                     <input
@@ -37,6 +38,7 @@ export default class convBinario extends Component {
                         autoComplete="off"
                         id="BinToDecBinary"
                     />
+                    <br />
                     <br />
                     <label>Número decimal</label>
                     <br />
@@ -52,6 +54,7 @@ export default class convBinario extends Component {
                 <br />
                 <div className="convBin-div">
                     <h3>Converter decimal para binário</h3>
+                    <br />
                     <label>Número decimal</label>
                     <br />
                     <input
@@ -60,6 +63,7 @@ export default class convBinario extends Component {
                         autoComplete="off"
                         id="DecToBinDecimal"
                     />
+                    <br />
                     <br />
                     <label>Número binário</label>
                     <br />

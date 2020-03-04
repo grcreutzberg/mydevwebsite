@@ -82,9 +82,9 @@ export default function ClippedDrawer() {
             <ListItemIcon>{<CoinIcon />}</ListItemIcon>
             <ListItemText primary={'Conv. de moeda'} />
           </ListItem>
-          <ListItem button key={'diceRollRPG'} component="a" href="/diceRollRPG">
+          <ListItem button key={'diceRoll'} component="a" href="/diceRoll">
             <ListItemIcon>{<DiceIcon />}</ListItemIcon>
-            <ListItemText primary={'Dice Roll'} />
+            <ListItemText primary={'Rolador de Dados'} />
           </ListItem>
           <ListItem button key={'Project4'}>
             <ListItemText primary={'Project4'} />
@@ -101,3 +101,8 @@ export default function ClippedDrawer() {
     </div>
   );
 }
+
+//DICE API - http://roll.diceapi.com/
+//ColorPiker - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color
+//convertCoin - https://www.youtube.com/watch?v=tbLziJchz48
+//Blackjack - http://deckofcardsapi.com/
