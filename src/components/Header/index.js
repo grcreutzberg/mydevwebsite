@@ -70,13 +70,9 @@ export default function ClippedDrawer() {
         </List>
         <Divider />
         <List>
-          <ListItem button key={'bin2dec'} component="a" href="/bin2dec">
+          <ListItem button key={'convBinario'} component="a" href="/convBinario">
             <ListItemIcon>{<SwapHorizontalCircleIcon />}</ListItemIcon>      
-            <ListItemText primary={'Bin2Dec'} />
-          </ListItem>
-          <ListItem button key={'dec2bin'} component="a" href="/dec2bin">
-            <ListItemIcon>{<SwapHorizontalCircleIcon />}</ListItemIcon>      
-            <ListItemText primary={'Dec2Bin'} />
+            <ListItemText primary={'Conv. Binário'} />
           </ListItem>
           <ListItem button key={'TicTacToe'} component="a" href="/TicTacToe">
             <ListItemIcon>{<GameIcon />}</ListItemIcon>      

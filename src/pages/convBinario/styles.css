@@ -1,0 +1,75 @@
+.convBin-form {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background:  #fff;
+    border-radius: 5px;
+    border:  1px solid #ddd;
+}
+
+.convBin-form h2 {
+    font-size: 32px;
+}
+
+.convBin-form p {
+    color: #666;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.convBin-div {
+    margin: 20px auto 0;
+    border-radius: 5px;
+    border:  1px solid #272C34;
+    padding-bottom: 20px;
+}
+
+.convBin-div h3 {
+    height: 36px;
+    background: #272C34;
+    color: #fff;
+    font-weight: bold;    
+    font-size:  16px;
+    text-decoration: node;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.convBin-div label {
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size:  16px;
+    font-weight: bold;
+}
+
+.convBin-div input {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 36px;
+    width: 90%;
+    font-size:  16px;
+}
+
+.convBin-div button {
+    margin: 20px auto 0;
+    height: 36px;
+    width: 142px;
+    border-radius: 5px;
+    border: 2px solid #272C34;
+    background: node;
+    color: #272C34;
+    font-weight: bold;    
+    font-size:  16px;
+    text-decoration: node;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.convBin-div button:hover {
+    background: #272C34;
+    color: #fff;
+}
