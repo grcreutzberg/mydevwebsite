@@ -63,7 +63,7 @@ export default function ClippedDrawer() {
       >
         <div className={classes.toolbar} />
         <List>
-          <ListItem button key={'Home'} component="a" href="/home">
+          <ListItem button key={'Home'} component="a" href="/">
             <ListItemIcon>{<HomeIcon />}</ListItemIcon>
             <ListItemText primary={'Início'} />
           </ListItem>

@@ -10,7 +10,7 @@ import diceRoll from './pages/diceRoll';
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/convBinario" component={convBinario} />
             <Route path="/diceRoll" component={diceRoll} />
             <Route path="/mainTeste" component={Main} />
