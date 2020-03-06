@@ -74,24 +74,10 @@ export default function ClippedDrawer() {
             <ListItemIcon>{<SwapHorizontalCircleIcon />}</ListItemIcon>      
             <ListItemText primary={'Conv. Binário'} />
           </ListItem>
-          <ListItem button key={'TicTacToe'} component="a" href="/TicTacToe">
-            <ListItemIcon>{<GameIcon />}</ListItemIcon>      
-            <ListItemText primary={'TicTacToe'} />
-          </ListItem>
-          <ListItem button key={'convertCoin'} component="a" href="/convertCoin">
-            <ListItemIcon>{<CoinIcon />}</ListItemIcon>
-            <ListItemText primary={'Conv. de moeda'} />
-          </ListItem>
           <ListItem button key={'diceRoll'} component="a" href="/diceRoll">
             <ListItemIcon>{<DiceIcon />}</ListItemIcon>
             <ListItemText primary={'Rolador de Dados'} />
-          </ListItem>
-          <ListItem button key={'Project4'}>
-            <ListItemText primary={'Project4'} />
-          </ListItem>
-          <ListItem button component="a" href="/mainTeste" key={'Project5'}>
-            <ListItemText primary={'Teste'} />
-          </ListItem>
+          </ListItem>          
         </List>
       </Drawer>
       <main className={classes.content}>
@@ -106,3 +92,19 @@ export default function ClippedDrawer() {
 //ColorPiker - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color
 //convertCoin - https://www.youtube.com/watch?v=tbLziJchz48
 //Blackjack - http://deckofcardsapi.com/
+/*
+          <ListItem button key={'TicTacToe'} component="a" href="/TicTacToe">
+            <ListItemIcon>{<GameIcon />}</ListItemIcon>      
+            <ListItemText primary={'TicTacToe'} />
+          </ListItem>
+          <ListItem button key={'convertCoin'} component="a" href="/convertCoin">
+            <ListItemIcon>{<CoinIcon />}</ListItemIcon>
+            <ListItemText primary={'Conv. de moeda'} />
+          </ListItem>          
+          <ListItem button key={'Project4'}>
+            <ListItemText primary={'Project4'} />
+          </ListItem>
+          <ListItem button component="a" href="/mainTeste" key={'Project5'}>
+            <ListItemText primary={'Teste'} />
+          </ListItem>
+*/

@@ -27,16 +27,11 @@ export default class Home extends Component {
                 />
                 <hr className="line-divider"></hr>
                 <p className="home-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum
-                    facilisis leo vel. Risus at ultrices mi tempus imperdiet. Semper risus in hendrerit
-                    gravida rutrum quisque non tellus. Convallis convallis tellus id interdum velit laoreet id
-                    donec ultrices. Odio morbi quis commodo odio aenean sed adipiscing. Amet nisl suscipit
-                    adipiscing bibendum est ultricies integer quis. Cursus euismod quis viverra nibh cras.
-                    Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Mauris commodo quis
-                    imperdiet massa tincidunt. Cras tincidunt lobortis feugiat vivamus at augue. At augue eget
-                    arcu dictum varius duis at consectetur lorem. Velit sed ullamcorper morbi tincidunt. Lorem
-                    donec massa sapien faucibus et molestie ac.
+                    Meu nome é Gustavo, sou desenvolvedor full stack, esse site é um projeto desenvolvido em reactJs. 
+                    O objetivo dele é primeiramente ser uma nova experiença para mim como desenvolvedor, pois estou constantemente aprendendo novas tecnologias e agora finalmente pondo em prática publicamente.
+                    E também quero poder compartilhar diversos temas relacionado ao mundo da programação. 
+                    Aqui disponibilizo funcionalidades para ajudar no seu dia-dia, bem como o codigo fonte de cada funcionalidade para que possa te ajudar.
+                    Esse projeto está apenas no inicio, mas aos poucos irei adicionando mais conteúdo.
                 </p>
                 <hr className="line-divider"></hr>
                 <div className="home-links">
