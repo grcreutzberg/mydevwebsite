@@ -1,0 +1,76 @@
+.lero-form {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background:  #fff;
+    border-radius: 5px;
+    border:  1px solid #ddd;
+}
+
+.lero-form h2 {
+    font-size: 32px;
+}
+
+.lero-form p {
+    color: #666;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.lero-div {
+    margin: 20px auto 0;
+    border-radius: 5px;
+    border:  1px solid #272C34;
+    padding-bottom: 20px;
+}
+
+.lero-div h3 {
+    height: 36px;
+    background: #272C34;
+    color: #fff;
+    font-weight: bold;    
+    font-size:  16px;
+    text-decoration: node;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.convBin-div label {
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size:  16px;
+    font-weight: bold;
+}
+
+.lero-div button {
+    margin: 20px auto 0;
+    height: 36px;
+    width: 142px;
+    border-radius: 5px;
+    border: 2px solid #272C34;
+    background: node;
+    color: #272C34;
+    font-weight: bold;    
+    font-size:  16px;
+    text-decoration: node;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.lero-div button:hover {
+    background: #272C34;
+    color: #fff;
+}
+
+.lero-form textarea {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 250px;
+    width: 90%;
+    resize: none;
+    font-size:  28px;
+}

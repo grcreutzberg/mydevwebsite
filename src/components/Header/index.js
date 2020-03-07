@@ -15,6 +15,7 @@ import GameIcon from '@material-ui/icons/SportsEsports';
 import CoinIcon from '@material-ui/icons/MonetizationOn';
 import HomeIcon from '@material-ui/icons/Home';
 import DiceIcon from '@material-ui/icons/Casino';
+import TextsmsIcon from '@material-ui/icons/Textsms';
 import ColorizeIcon from '@material-ui/icons/Colorize';
 import Routes from './../../routes';
 
@@ -78,6 +79,10 @@ export default function ClippedDrawer() {
           <ListItem button key={'diceRoll'} component="a" href="/diceRoll">
             <ListItemIcon>{<DiceIcon />}</ListItemIcon>
             <ListItemText primary={'Rolador de Dados'} />
+          </ListItem>
+          <ListItem button key={'lerolero'} component="a" href="/lerolero">
+            <ListItemIcon>{<TextsmsIcon />}</ListItemIcon>
+            <ListItemText primary={'Lero Lero'} />
           </ListItem>
         </List>
       </Drawer>
