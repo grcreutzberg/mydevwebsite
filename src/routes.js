@@ -6,6 +6,7 @@ import Main from './pages/main';
 import Products from './pages/product';
 import convBinario from './pages/convBinario';
 import diceRoll from './pages/diceRoll';
+import colorPicker from './pages/colorPicker';
 
 const Routes = () => (
     <BrowserRouter>
@@ -13,6 +14,7 @@ const Routes = () => (
             <Route exact path="/" component={Home} />
             <Route path="/convBinario" component={convBinario} />
             <Route path="/diceRoll" component={diceRoll} />
+            <Route path="/colorPicker" component={colorPicker} />
             <Route path="/mainTeste" component={Main} />
             <Route path="/products/:id" component={Products} />
         </Switch>

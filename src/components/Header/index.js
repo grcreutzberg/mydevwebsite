@@ -13,8 +13,9 @@ import ListItemText from '@material-ui/core/ListItemText';
 import SwapHorizontalCircleIcon from '@material-ui/icons/SwapHorizontalCircle';
 import GameIcon from '@material-ui/icons/SportsEsports';
 import CoinIcon from '@material-ui/icons/MonetizationOn';
-import DiceIcon from '@material-ui/icons/Casino';
 import HomeIcon from '@material-ui/icons/Home';
+import DiceIcon from '@material-ui/icons/Casino';
+import ColorizeIcon from '@material-ui/icons/Colorize';
 import Routes from './../../routes';
 
 const drawerWidth = 240;
@@ -77,7 +78,7 @@ export default function ClippedDrawer() {
           <ListItem button key={'diceRoll'} component="a" href="/diceRoll">
             <ListItemIcon>{<DiceIcon />}</ListItemIcon>
             <ListItemText primary={'Rolador de Dados'} />
-          </ListItem>          
+          </ListItem>
         </List>
       </Drawer>
       <main className={classes.content}>
@@ -93,6 +94,10 @@ export default function ClippedDrawer() {
 //convertCoin - https://www.youtube.com/watch?v=tbLziJchz48
 //Blackjack - http://deckofcardsapi.com/
 /*
+          <ListItem button key={'colorPicker'} component="a" href="/colorPicker">
+            <ListItemIcon>{<ColorizeIcon />}</ListItemIcon>
+            <ListItemText primary={'Color Picker'} />
+          </ListItem>
           <ListItem button key={'TicTacToe'} component="a" href="/TicTacToe">
             <ListItemIcon>{<GameIcon />}</ListItemIcon>      
             <ListItemText primary={'TicTacToe'} />
