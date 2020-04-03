@@ -98,6 +98,16 @@ export default function ClippedDrawer() {
 //ColorPiker - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color
 //convertCoin - https://www.youtube.com/watch?v=tbLziJchz48
 //Blackjack - http://deckofcardsapi.com/
+
+//https://www.youtube.com/watch?v=n3tMEOw9KGY
+//convert case
+//unit converter
+//dolarhoje
+
+//site precisa ter conteúdo pra monetizar
+
+//donate with paypal
+
 /*
           <ListItem button key={'colorPicker'} component="a" href="/colorPicker">
             <ListItemIcon>{<ColorizeIcon />}</ListItemIcon>
