@@ -28,7 +28,7 @@ export default class Home extends Component {
                 <hr className="line-divider"></hr>
                 <p className="home-desc">
                     Meu nome é Gustavo, sou desenvolvedor full stack, esse site é um projeto desenvolvido em reactJs. 
-                    O objetivo dele é primeiramente ser uma nova experiença para mim como desenvolvedor, pois estou constantemente aprendendo novas tecnologias e agora finalmente pondo em prática publicamente.
+                    O objetivo dele é primeiramente ser uma nova experiência para mim como desenvolvedor, pois estou constantemente aprendendo novas tecnologias e agora finalmente pondo em prática publicamente.
                     E também quero poder compartilhar diversos temas relacionado ao mundo da programação. 
                     Aqui disponibilizo funcionalidades para ajudar no seu dia-dia, bem como o codigo fonte de cada funcionalidade para que possa te ajudar.
                     Esse projeto está apenas no inicio, mas aos poucos irei adicionando mais conteúdo.
